@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test Page</title>
+
+  <style>
+    /* BODY */
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background: linear-gradient(160deg, #06081d, #0b0f2a, #070a1f);
+      color: #e4e8ff;
+      line-height: 1.5;
+      text-align: center;
+    }
+
+    header {
+      padding: 56px 20px 48px;
+      background: radial-gradient(circle at top, rgba(30,45,110,0.28), rgba(4,6,20,0.95));
+      border-bottom: 1px solid rgba(150,170,230,0.18);
+    }
+
+    header h1 {
+      font-size: 2.85rem;
+      letter-spacing: 7px;
+      font-weight: 300;
+      margin: 0;
+      background: linear-gradient(90deg, #cfd9ff, #eef2ff, #cfd9ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 0 14px rgba(170,185,255,0.35);
+    }
+
+    header p {
+      font-size: 0.9rem;
+      color: #aeb8e8;
+      margin-top: 10px;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+    }
+
+    section {
+      padding: 34px 26px;
+      max-width: 760px;
+      margin: 22px auto;
+      background: linear-gradient(180deg, rgba(14,18,50,0.55), rgba(8,10,32,0.75));
+      border: 1px solid rgba(130,150,210,0.18);
+      border-radius: 10px;
+    }
+
+    footer {
+      padding: 20px;
+      font-size: 0.75rem;
+      color: #a9b3e4;
+      border-top: 1px solid rgba(150,170,230,0.18);
+      background: rgba(5,7,20,0.95);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>WEBSITE TITLE</h1>
+    <p>Subtitle text</p>
+  </header>
+
+  <section>
+    <h2>Section Heading</h2>
+    <p>This is visible content.</p>
+  </section>
+
+  <footer>
+    © 2026 Your Name
+  </footer>
+</body>
+</html>
